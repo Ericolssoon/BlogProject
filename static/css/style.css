@@ -8,6 +8,14 @@ body {
     font-weight: 700;
     color: #4A4A4F;
 }
+/* ----------------------------------- Nav */
+#links a {
+    color: rgb(238, 238, 238); 
+}
+
+a {
+    color: rgb(0, 0, 0);
+}
 
 .red-o {
     color: #E84610;
@@ -22,13 +30,14 @@ body {
 }
 
 .dark-bg {
-    background-color: #445261;
+    background-color: #1d1b1a;
 }
 
 .main-bg {
     background-color: #F9FAFC;
 }
 
+/* ----------------------------------- Posts */
 .card {
     border: none;
     background-color: transparent;
@@ -45,7 +54,7 @@ body {
     left: -2px;
     background-color: #23BBBB;
 }
-
+ 
 .author {
     color: white;
     margin: 4px;
@@ -62,7 +71,7 @@ body {
 }
 
 .masthead-text {
-    background-color: #445261;
+    background-color: #686868;
     color: white;
     position: relative;
 }
@@ -72,19 +81,6 @@ body {
     overflow: hidden;
 }
 
-.masthead-image:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 90%;
-    height: 100%;
-    width: 150%;
-    background: #445261;
-    -webkit-transform: skew(15deg);
-    -moz-transform: skew(15deg);
-    transform: skew(15deg);
-    z-index: 100;
-}
 
 .post-link {
     text-decoration: none;
@@ -93,7 +89,7 @@ body {
 
 .post-link:hover,
 .page-link {
-    color: #E84610;
+    color: #000000;
 }
 
 .post-title {
@@ -109,11 +105,12 @@ body {
 .btn-signup {
     background-color: #23BBBB;
     color: #fff;
+    margin-top: 12px;
 }
 
 .btn-signup:hover,
 .btn-signup:active {
-    background-color: #fff;
+    background-color: rgb(5, 37, 39);
     color: #23BBBB;
 }
 
@@ -139,4 +136,12 @@ body {
     color: #E84610;
     background: transparent;
     border: none;
+}
+
+.bg-dark {
+    background-color: #686868!important;
+}
+
+.footercolor{
+    color: #686868;
 }
