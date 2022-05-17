@@ -29,7 +29,6 @@ Welcome to this simple blog where you can view different posts, register on the 
    - Here you can comment on the post
 
    ![Comment](media/CommentPost.png)
-### Future features
 
 ## Testing
 - I tested that this page works in different browsers: Opera, Chrome, Microsoft Edge
